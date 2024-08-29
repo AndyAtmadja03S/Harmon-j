@@ -13,7 +13,7 @@ function nextImage() {
 
 photoBox.addEventListener('mouseover', () => {
     nextImage();
-    interval = setInterval(nextImage, 2000); 
+    interval = setInterval(nextImage, 2500); 
 });
 
 photoBox.addEventListener('mouseout', () => {

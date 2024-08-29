@@ -86,7 +86,7 @@ h1{
     position: absolute;
     right: 30px;
     top: 340px;
-    width: 270px;
+    width: 280px;
     height: 205px;
     padding: 100px;
     background: rgba(0, 0, 0, 0.2);
@@ -114,6 +114,10 @@ h1{
     object-fit: cover;
     opacity: 0;
     transition: opacity 0.5s ease;
+}
+
+.photo-box:hover h2 {
+    display: none;
 }
 
 .photo-box:hover img {
