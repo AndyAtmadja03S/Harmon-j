@@ -3,12 +3,12 @@
     background-size: 100px 100px;
     background-repeat: no-repeat;
     background-position: center; 
-    animation: w1Effect 5s steps(20) infinite;
+    animation: w1Effect 7.5s steps(20) infinite;
 }
 
 @keyframes w1Effect{
     from{
-        background-position: 500px;
+        background-position: 520px;
     }to{
         background-position: 900px;
     }
