@@ -2,14 +2,24 @@
     background-image: url(/Users/andyatmadja/devsoc-apply/src/8-bit-mario-mdaWkw1-600-removebg-preview.png);
     background-size: 100px 100px;
     background-repeat: no-repeat;
+    height: 380px;
     background-position: center; 
-    animation: w1Effect 7.5s steps(20) infinite;
+    animation:  w1Effect 7.5s linear infinite, jump 7.5s infinite;
 }
 
 @keyframes w1Effect{
     from{
-        background-position: 520px;
+        background-position: 200px;
     }to{
-        background-position: 900px;
+        background-position: 1400px;
+    }
+}
+
+@keyframes jump {
+    0% {
+        background-position-y: 140px;
+    }
+    50% {
+        background-position-y: 10px;
     }
 }
